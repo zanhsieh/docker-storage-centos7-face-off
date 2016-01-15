@@ -49,3 +49,7 @@ Docker 1.9.1 file IO testing raw vs loop lvm vs direct lvm
 # Test Result
 
 See the excel file in this project
+
+# Conclusion?
+
+No straightforward conclusion. It depends on the scenario you use Docker.
