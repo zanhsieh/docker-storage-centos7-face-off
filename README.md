@@ -2,13 +2,13 @@
 Docker 1.9.1 file IO testing raw vs loop lvm vs direct lvm 
 
 # Spec
-Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz x2
-16GB RAM
-3 TB HDD
-LVM 10GB
-CentOS 7.1.1503
-Docker version 1.9.1, build a34a1d5
-iozone: 3.434 (Stable; go to http://www.iozone.org/ -> click "Stable tarball" under "Download Source") 
+- Intel(R) Xeon(R) CPU E5-2623 v3 @ 3.00GHz x2
+- 16GB RAM
+- 3 TB HDD
+- LVM 10GB
+- CentOS 7.1.1503
+- Docker version 1.9.1, build a34a1d5
+- iozone: 3.434 (Stable; go to http://www.iozone.org/ -> click "Stable tarball" under "Download Source") 
 
 # How did I test
 ## Raw machine test: 
