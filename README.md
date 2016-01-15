@@ -21,7 +21,7 @@ Docker 1.9.1 file IO testing raw vs loop lvm vs direct lvm
 
 1. Install Docker as official document (https://docs.docker.com/engine/installation/centos/) instructed
 1. Modify daemon (/usr/lib/systemd/system/docker.service) to work around build image issue (https://github.com/docker/docker/issues/17653; look at crosbymichael comment on Nov 11, 2015) and start docker daemon
-Build c7perf image ("docker build -t c7perf --rm=true .") based on https://github.com/jeremyeder/docker-performance/blob/master/Dockerfiles/Dockerfile. Note that Dockerfile should be place next to iozone_3_434 directory (see Dockerfile enclosed)
+1. Build c7perf image ("docker build -t c7perf --rm=true .") based on https://github.com/jeremyeder/docker-performance/blob/master/Dockerfiles/Dockerfile. Note that Dockerfile should be place next to iozone_3_434 directory (see Dockerfile enclosed)
 1. Create /results directory, run c7perf docker image, and do test:
 
         # mkdir -p /results
