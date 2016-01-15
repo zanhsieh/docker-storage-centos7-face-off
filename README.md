@@ -15,7 +15,7 @@ Docker 1.9.1 file IO testing raw vs loop lvm vs direct lvm
 
 1. CentOS yum update
 1. Yum install gcc, make
-1. Follow this instruction (http://www.thegeekstuff.com/2011/05/iozone-examples/) download current stable and make the test (./iozone -a -b raw_data.xls)
+1. Follow this instruction (http://www.thegeekstuff.com/2011/05/iozone-examples/) download iozone current stable version and make the test (./iozone -a -b raw_data.xls)
 
 ## Docker loopback / thin-lvm test:
 
